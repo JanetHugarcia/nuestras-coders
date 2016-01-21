@@ -1,0 +1,65 @@
+/* Inserta tu código aqui */
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:content-box;
+}
+body{
+	margin:10px;
+}
+
+
+hr{
+	border:3px solid;
+	width:100px;
+}
+
+.contenedor{
+	
+	width: 800px;
+	margin: 50px auto;
+	padding-left: 80px;
+	
+}
+.imagenFondo{
+	display:inline-block;
+	position:relative;
+}
+
+img{
+	
+	margin-top: 40px;
+	margin-right: 40px;
+	
+	
+}
+
+.clearfix:before,.clearfix:after {
+    content:"";
+    display: table;
+}
+
+.clearfix:after{
+	clear: both;
+}
+span{
+	position: absolute;
+	top:225px;
+	left:72px;
+	color:white;
+	font-weight: bold;
+}
+
+.overlay{
+	position:absolute;
+	width: 211px;
+	height: 211px;
+	background-color: rgba(0,0,0,0.3);
+	top: 40px;
+	left:0;
+
+}
+
+
+
+
